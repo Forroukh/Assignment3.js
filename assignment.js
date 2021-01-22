@@ -7,11 +7,16 @@ function kilometerToMeter(meter) {
 var meterCalculation = kilometerToMeter(197);
 console.log(meterCalculation);
 //Function(2)  Budget Calculator
-
+function budgetCalculator (watch, mobile, laptop){
+    var result1 = watch * 50;
+    var result2 = mobile * 100;
+    var result3 = laptop * 500;
+    var total = result1 + result2 + result3;
+    return total;
+}
+console.log(budgetCalculator(1,1,1));
 
 //Function (3) hotelCost
-
-
 function hotelCost (timeSpent){
     var cost = 0;
     if (timeSpent <= 10){
